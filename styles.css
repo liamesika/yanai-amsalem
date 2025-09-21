@@ -589,6 +589,11 @@ section {
     position: relative;
     height: 400px;
     background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+    /* Add your map background image here */
+    background-image: url('img/maps.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 10px;
     overflow: hidden;
     border: 2px solid var(--gold-color);
